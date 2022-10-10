@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/76727682/194798250-6c410ab9-a966-4245-852a-e7910f60fbea.png)
+<img src="" data-canonical-src="" width="200" />
 
 # IBM-Project-6693-1658834634
 University Admit Eligibility Predictor
