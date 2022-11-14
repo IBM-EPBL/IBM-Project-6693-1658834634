@@ -3,8 +3,8 @@
 # IBM-Project-6693-1658834634
 University Admit Eligibility Predictor
 
-**Team members:**
-_Pradeepa M_
-_Sowmya D_
-_Suja S_
-_Vedha R_
+##Team members:
+_Pradeepa M
+_Sowmya D
+_Suja S
+_Vedha R
