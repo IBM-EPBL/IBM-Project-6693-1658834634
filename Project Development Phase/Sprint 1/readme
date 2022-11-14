@@ -1,0 +1,2 @@
+File 'Sprint1_PNT2022TMID35582.ipynb' contains all the EDA and regression models.
+File 'UniversityEligibilityPredictionModel.pkl' is the model saved after training using Random Forest Classifier.
