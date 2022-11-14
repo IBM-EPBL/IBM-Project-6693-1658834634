@@ -4,7 +4,7 @@
 University Admit Eligibility Predictor
 
 **Team members:**
-_Pradeepa M
-Sowmya D
-Suja S
-Vedha R_
+_Pradeepa M_
+_Sowmya D_
+_Suja S_
+_Vedha R_
