@@ -1,0 +1,5 @@
+File 'Sprint2_PNT2022TMID35582.ipynb' contains the EDA part from sprint1 and regression models
+ Also contains the data preprocessing, spliting the data into train and test, model creation and saving the model.
+  At the end, saved model is used for predicting the output with user inputs.
+
+File 'UniversityEligibilityPredictionModel.pkl' is the model saved after training using Random Forest Classifier.
