@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>University Eligiblity Predictor</title>
+        <meta charset="Utf-8">
+        <meta name="keyword" content="Eligiblity Predictor">
+        <meta name="description" content="gre, tofel, University Eligiblity, Predictor">
+        <meta name="author" content="pradeepa sowmya suja vedha">
+        <meta name="viewport" content="width=device-width ,initial_selected=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div class="transbox">
+            <form method="POST" action="">
+                <br><br>
+                <div class="heading">University Admission Prediction System</div><br>
+                <div class="heading">Enter your details: </div><br><br><br>
+                Enter GRE Score     : <input type="number" name="gre"><br><br>
+                Enter TOEFL Score   : <input type="number" name="tofel" ><br><br>
+                <lable for="University Rating"> 
+                University Rating   : </lable>
+                <input type="radio" name="urating" value=1>1</input>
+                <input type="radio" name="urating" value=2>2</input>
+                <input type="radio" name="urating" value=3>3</input>
+                <input type="radio" name="urating" value=4>4</input>
+                <input type="radio" name="urating" value=5>5</input><br>
+                <br>
+                Enter SOP           : <input type="number" name="sop"><br><br>
+                Enter LOR           : <input type="number" name="lor" ><br><br>
+                Enter CGPA          : <input type="number" name="cgpa" ><br><br>
+                <lable>Are you interesed in Research :</lable>
+                <input type="radio" name="research" value="1">Interested</input>
+                <input type="radio" name="research" value="2">Not Interested</input><br><br>
+                <br><br>
+                <input type="submit" name="predict" id="Predict" value="Predict">
+            </form>
+        </div>
+  </div>
+
+    <div id="popup" class="pop">
+        <div class="popup-content">
+        <span class="close">&times;</span>
+        <p>Result of Prediction</p>
+    </div>
+
+        <script>
+            var pop = document.getElementById("popup");
+            var btn = document.getElementById("Predict");        
+            var span = document.getElementsByClassName("close")[0];
+            
+            btn.onclick = function() {
+                event.preventDefault()
+                pop.style.display = "block";
+            }
+            
+            span.onclick = function() {
+                pop.style.display = "none";
+            }
+
+            window.onclick = function(event) {
+                if (event.target == pop) {
+                    pop.style.display = "none";
+                }
+            }
+        </script>
+    </body>
+</html>
