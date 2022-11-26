@@ -1,1 +1,12 @@
+Team ID: PNT2022TMID35582
+Topic: University Admit Eligibility Predictor
 
+Steps to run the app:
+
+	* Install the required dependencies
+
+	* Replace line 29 in app.py with your IBM Cloud API KEY: API_KEY = "<Your API-KEY>"
+
+	* To run the web app locally, execute the command: python app.py
+
+	* The app will be running in the browser. If not, go to the web browser and type: localhost:5000
